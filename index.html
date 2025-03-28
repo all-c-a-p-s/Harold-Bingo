@@ -15,8 +15,8 @@
     <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
     
 <script type="module" nonce="HUTK4R9tUr83Aq/k2Dk8YQ==">
-import init, * as bindings from 'Harold-Bingo/harold-dab2eee49b1f81d6.js';
-const wasm = await init({ module_or_path: 'Harold-Bingo/harold-dab2eee49b1f81d6_bg.wasm' });
+import init, * as bindings from '/Harold-Bingo/harold-dab2eee49b1f81d6.js';
+const wasm = await init({ module_or_path: '/Harold-Bingo/harold-dab2eee49b1f81d6_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -130,7 +130,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
         }
       }
     </style>
-  <link rel="modulepreload" href="Harold-Bingo/harold-dab2eee49b1f81d6.js" crossorigin=anonymous integrity="sha384-8uUOe3OJilkErFRJx5r7BYXlXaP5jOjbwv1xmO6udgoVxUiAGrQIgpchlRkrKPLM"><link rel="preload" href="Harold-Bingo/harold-dab2eee49b1f81d6_bg.wasm" crossorigin=anonymous integrity="sha384-PsqD1QDE85dDAYNXr7BUyCKPOD5Fee3Bd7EBUhUFNtfRkzzCukQSv0cM9MjjrE4p" as="fetch" type="application/wasm"></head>
+  <link rel="modulepreload" href="/Harold-Bingo/harold-dab2eee49b1f81d6.js" crossorigin=anonymous integrity="sha384-8uUOe3OJilkErFRJx5r7BYXlXaP5jOjbwv1xmO6udgoVxUiAGrQIgpchlRkrKPLM"><link rel="preload" href="/Harold-Bingo/harold-dab2eee49b1f81d6_bg.wasm" crossorigin=anonymous integrity="sha384-PsqD1QDE85dDAYNXr7BUyCKPOD5Fee3Bd7EBUhUFNtfRkzzCukQSv0cM9MjjrE4p" as="fetch" type="application/wasm"></head>
 
   <body>
     <!-- The WASM code will resize the canvas dynamically -->
