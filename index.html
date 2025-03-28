@@ -49,7 +49,6 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     touch-action: manipulation;
     height: 100%;
     overflow-y: auto; /* Allow vertical scrolling */
-    overscroll-behavior-y: none; /* Prevent pull-to-refresh */
 }
 
 body {
@@ -59,7 +58,7 @@ body {
     padding: 0 !important;
     height: 100%;
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: auto; /* Prevent horizontal scrolling */
 }
 
 @media (prefers-color-scheme: dark) {
